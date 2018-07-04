@@ -1,0 +1,71 @@
+\hypertarget{namespacelib}{}\section{lib Module Reference}
+\label{namespacelib}\index{lib@{lib}}
+
+
+L\+I\+B\+R\+R\+A\+RY F\+OR M\+A\+T\+R\+IX OP.  
+
+
+\subsection*{Functions/\+Subroutines}
+\begin{DoxyCompactItemize}
+\item 
+subroutine \mbox{\hyperlink{namespacelib_ae69dd109662f22ec6b656d631e346dd2}{mm}} (first, second, multiply, status)
+\begin{DoxyCompactList}\small\item\em M\+U\+L\+T\+I\+P\+L\+I\+C\+A\+T\+I\+ON OF M\+A\+T\+R\+I\+XS. \end{DoxyCompactList}\item 
+subroutine \mbox{\hyperlink{namespacelib_ad76b66d588fa7482caf01bbd755d2a7a}{gauss}} (A, X, N)
+\begin{DoxyCompactList}\small\item\em Guess method for matrix. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+L\+I\+B\+R\+R\+A\+RY F\+OR M\+A\+T\+R\+IX OP. 
+
+\begin{DoxyAuthor}{Author}
+Jakub Czerski 
+\end{DoxyAuthor}
+
+
+\subsection{Function/\+Subroutine Documentation}
+\mbox{\Hypertarget{namespacelib_ad76b66d588fa7482caf01bbd755d2a7a}\label{namespacelib_ad76b66d588fa7482caf01bbd755d2a7a}} 
+\index{lib@{lib}!gauss@{gauss}}
+\index{gauss@{gauss}!lib@{lib}}
+\subsubsection{\texorpdfstring{gauss()}{gauss()}}
+{\footnotesize\ttfamily subroutine lib\+::gauss (\begin{DoxyParamCaption}\item[{real (kind = 4), dimension(n,n), intent(out)}]{A,  }\item[{real (kind = 4), dimension(n), intent(out)}]{X,  }\item[{integer (kind = 4), intent(in)}]{N }\end{DoxyParamCaption})}
+
+
+
+Guess method for matrix. 
+
+\begin{DoxyAuthor}{Author}
+Jakub Czerski
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em N} & size of matrix \\
+\hline
+\mbox{\tt out}  & {\em A} & matrix \\
+\hline
+\mbox{\tt out}  & {\em X} & matrix (values) \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{namespacelib_ae69dd109662f22ec6b656d631e346dd2}\label{namespacelib_ae69dd109662f22ec6b656d631e346dd2}} 
+\index{lib@{lib}!mm@{mm}}
+\index{mm@{mm}!lib@{lib}}
+\subsubsection{\texorpdfstring{mm()}{mm()}}
+{\footnotesize\ttfamily subroutine lib\+::mm (\begin{DoxyParamCaption}\item[{real(kind = 8), dimension(\+:,\+:), intent(in)}]{first,  }\item[{real(kind = 8), dimension(\+: ,\+:), intent(in)}]{second,  }\item[{real(kind = 8), dimension(\+:,\+:), intent(out)}]{multiply,  }\item[{integer(kind = 4), intent(out)}]{status }\end{DoxyParamCaption})}
+
+
+
+M\+U\+L\+T\+I\+P\+L\+I\+C\+A\+T\+I\+ON OF M\+A\+T\+R\+I\+XS. 
+
+\begin{DoxyAuthor}{Author}
+Jakub Czerski
+\end{DoxyAuthor}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em first} & 1st matrix \\
+\hline
+\mbox{\tt in}  & {\em second} & 2nd matrix \\
+\hline
+\mbox{\tt out}  & {\em multiply} & res matrix \\
+\hline
+\mbox{\tt out}  & {\em status,0} & on success \\
+\hline
+\end{DoxyParams}
